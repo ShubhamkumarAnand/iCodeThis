@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>signup-form</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
+	<body class="bg-[#f4f9fe] h-screen flex flex-col justify-center items-center">
+		<div class="bg-[#dfeaf7] p-3 rounded grid place-items-center shadow-xl hover:sadow-lg">
+			<div class="p-24 bg-white rounded-sm grid place-items-center">
+				<h2 class="text-center font-extrabold text-4xl mb-4">Join the Community</h2>
+				<p class="text-center text-sm">
+					Take your art to the Next level. Get it seen by Millions of People
+				</p>
+				<button class="bg-[#4968ad] text-white p-3 rounded my-2 w-full">Join with FaceBook</button>
+				<p class="text-center">or</p>
+				<form class="my-2 space-y-2 grid place-items-center">
+					<div class="flex flex-row">
+						<input
+							type="text"
+							name="name"
+							id="name"
+							class="p-2 rounded border border-gray-300 w-1/2 mr-2"
+							placeholder="First Name"
+						/>
+						<input
+							type="text"
+							name="name"
+							id="name"
+							class="p-2 rounded border w-1/2 border-gray-300"
+							placeholder="Last Name"
+						/>
+					</div>
+					<input
+						type="email"
+						name="email"
+						id="email"
+						placeholder="Email"
+						class="p-2 rounded border w-full border-gray-300"
+					/>
+					<input
+						type="password"
+						name="password"
+						id="password"
+						placeholder="Password"
+						class="p-2 rounded border w-full border-gray-300"
+					/>
+					<button class="bg-[#1d2c4b] text-white p-3 rounded my-2 w-full">
+						Create New Account
+					</button>
+				</form>
+				<p class="text-xs text-center mt-2 mx-4 text-gray-700">
+					By joining you agree to our term of Services and Privacy Policy
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
