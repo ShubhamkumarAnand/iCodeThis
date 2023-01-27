@@ -3,3 +3,5 @@
 1. Sign-up-form using HTML & Tailwind CSS
 2. Narcos Netflix Banner
 3. Alert For Request to Create
+4. Trianga
+5. calculator
