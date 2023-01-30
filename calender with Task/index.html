@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <title>Calender with Task</title>
+ <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div class="flex h-screen justify-center bg-cyan-500">
+  <div class="z-20 my-auto flex flex-col rounded-sm bg-slate-500">
+    <div class="mx-auto flex w-full justify-center bg-white px-2 py-3">
+      <p class="ml-3 text-3xl">◂</p>
+      <p class="mx-auto py-1 text-lg font-thin">March 2017</p>
+      <p class="mr-3 text-3xl">▸</p>
+    </div>
+    <hr />
+    <div class="bg-gradient-to-r from-green-600 to-green-900 p-2">
+      <div class="grid grid-cols-7 gap-2">
+        <p class="mx-2 rounded-full p-1 font-semibold text-teal-400">Su</p>
+        <p class="mx-2 rounded-full p-1 font-semibold text-teal-400">Mo</p>
+        <p class="mx-2 rounded-full p-1 font-semibold text-teal-400">Tu</p>
+        <p class="mx-2 rounded-full p-1 font-semibold text-teal-400">Wd</p>
+        <p class="mx-2 rounded-full p-1 font-semibold text-teal-400">Th</p>
+        <p class="mx-2 rounded-full p-1 font-semibold text-teal-400">Fr</p>
+        <p class="mx-2 rounded-full p-1 font-semibold text-teal-400">Sa</p>
+      </div>
+      <div class="grid grid-cols-7 gap-3">
+        <p class="mx-2 p-2"></p>
+        <p class="mx-2 p-2"></p>
+        <p class="mx-2 p-2"></p>
+        <p class="mx-2 p-2"></p>
+        <p class="mx-2 rounded-full p-1 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">&nbsp; 1</p>
+        <p class="mx-2 rounded-full p-1 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">&nbsp; 2</p>
+        <p class="mx-2 rounded-full p-1 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">&nbsp; 3</p>
+      </div>
+      <div class="my-1 grid grid-cols-7 gap-2">
+        <p class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">&nbsp; 4</p>
+        <p class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">&nbsp; 5</p>
+        <p class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">&nbsp; 6</p>
+        <p class="mx-2 rounded-full p-2 font-semibold text-white hover:bg-blue-500">&nbsp; 7</p>
+        <p class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">&nbsp; 8</p>
+        <p class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">&nbsp; 9</p>
+        <p class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">10</p>
+      </div>
+      <div class="my-1 grid grid-cols-7 gap-2">
+        <p class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">11</p>
+        <p class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">12</p>
+        <p class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">13</p>
+        <p class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">14</p>
+        <p class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">15</p>
+        <p class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">16</p>
+        <p class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">17</p>
+      </div>
+      <div class="my-1 grid grid-cols-7 gap-2">
+        <div class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">18</div>
+        <div class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">19</div>
+        <div class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">20</div>
+        <div class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">21</div>
+        <div class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">22</div>
+        <div class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">23</div>
+        <div class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">24</div>
+      </div>
+      <div class="my-1 grid grid-cols-7 gap-2">
+        <div class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">25</div>
+        <div class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">26</div>
+        <div class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">27</div>
+        <div class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">28</div>
+        <div class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">29</div>
+        <div class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">30</div>
+        <div class="mx-2 rounded-full p-2 font-semibold text-white hover:cursor-pointer hover:bg-teal-500">31</div>
+      </div>
+    </div>
+    <div class="mx-auto flex w-full bg-white p-2">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#929292" class="m-4 my-auto h-6 w-6" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:#a39b8f;">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9.143 17.082a24.248 24.248 0 003.844.148m-3.844-.148a23.856 23.856 0 01-5.455-1.31 8.964 8.964 0 002.3-5.542m3.155 6.852a3 3 0 005.667 1.97m1.965-2.277L21 21m-4.225-4.225a23.81 23.81 0 003.536-1.003A8.967 8.967 0 0118 9.75V9A6 6 0 006.53 6.53m10.245 10.245L6.53 6.53M3 3l3.53 3.53"></path>
+      </svg>
+      <div class="flex-col">
+        <p class="font-bold">Meeting with My Accountant</p>
+        <p class="text-sm text-gray-500">01:00 Pm</p>
+      </div>
+    </div>
+    <div class="mx-auto flex w-full bg-white p-3">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clipboard-check m-4" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#74c491" fill="none" stroke-linecap="round" stroke-linejoin="round" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:#7ac796;">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:none;"></path>
+                        <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"></path>
+                        <rect x="9" y="3" width="6" height="4" rx="2"></rect>
+                        <path d="M9 14l2 2l4 -4"></path>
+                    </svg>
+      </svg>
+      <div class="flex-col">
+        <p class="font-bold">Do the Groceries</p>
+        <p class="text-sm text-gray-500">10:50 Am</p>
+      </div>
+    </div>
+    <div class="bg-white relative overflow-hidden">
+     <div class="bg-teal-400 p-6 rounded-full float-right -mr-6 -mb-6 relative">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="white" class="w-16 h-16 float-right hover:scale-125 cursor-pointer" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:#e8e6e3;">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path>
+                </svg>
+     </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
