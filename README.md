@@ -8,3 +8,4 @@
 6. Mortgage Calculator
 7. calendar
 8. Calender with Task
+9. Apps List

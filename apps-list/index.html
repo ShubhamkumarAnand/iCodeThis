@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<title>Apps List</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
+	<body>
+		<div class="flex h-screen justify-center bg-slate-200">
+			<div class="my-auto mx-6 flex-col justify-center space-y-10 rounded-lg bg-white p-12">
+				<header class="flex flex-col justify-center gap-2">
+					<p class="mx-auto text-lg font-bold">Recently Added</p>
+					<p class="mx-auto text-sm font-semibold text-gray-700">
+						The latest tool that help you and your team build software better, togeather
+					</p>
+				</header>
+				<div class="mx-auto grid grid-cols-2 gap-2 space-x-3">
+					<div class="grid grid-rows-3 space-y-2">
+						<div class="flex max-w-sm space-x-3 p-2">
+							<img
+								src="data:image/png;base64,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"
+								alt="instabug image"
+								class="w-20 rounded-full"
+							/>
+							<div class="flex flex-col">
+								<div class="flex justify-start">
+									<p class="text-md mb-1 font-medium">Instabug</p>
+									<img
+										src="https://img.icons8.com/color/512/verified-account--v2.png"
+										alt="verified"
+										class="m-1 h-4 w-4"
+									/>
+								</div>
+								<p class="text-xs">
+									The app in the world rely on the instabug on bug reporting crash reporting and
+									in-app user feedback.
+								</p>
+							</div>
+						</div>
+						<div class="flex max-w-sm space-x-3 p-2">
+							<img
+								src="data:image/png;base64,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"
+								alt="octobox image"
+								class="w-20 rounded-full"
+							/>
+							<div class="flex flex-col">
+								<div class="flex justify-start">
+									<p class="text-md mb-1 font-medium">Octobox</p>
+									<img
+										src="https://img.icons8.com/color/512/verified-account--v2.png"
+										alt="verified"
+										class="m-1 h-4 w-4"
+									/>
+								</div>
+								<p class="text-xs">
+									Octobox help you to manage your notification like gmail helps you to manage your
+									emails.
+								</p>
+							</div>
+						</div>
+						<div class="flex max-w-sm space-x-3 p-2">
+							<img
+								src="data:image/png;base64,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"
+								alt="Gamma image"
+								class="w-20 rounded-full"
+							/>
+							<div class="flex flex-col">
+								<div class="flex justify-start">
+									<p class="text-md mb-1 font-medium">Gamma Data Leak Protection</p>
+									<img
+										src="https://img.icons8.com/color/512/verified-account--v2.png"
+										alt="verified"
+										class="m-1 h-4 w-4"
+									/>
+								</div>
+								<p class="text-xs">
+									70% of the data breach starts with the negligence. We help you to protect the data
+									of your organisation.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid grid-rows-3 space-y-2">
+						<div class="flex max-w-sm space-x-3 p-2">
+							<img
+								src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAMAAACZHrEMAAAAclBMVEUhSLH///9viMywvuO1wuWQo9isuuLR2e55kNBUcsM4W7m5xeYlS7L9/f/4+fw8XrpKar/y9Prh5vQwVLbq7vfa4PJZdsTCzemer9wpTrOAltKHnNRqhMpngslDZL1PbsHM1e2ist6XqdqMoNZhfcd9k9GQHs+MAAAEAUlEQVR4nO2aaZeqMAxAAREXNhFEBFFc5v//xedu26RjhRbmvJP7cQpy6ZpksCyCIAiCIAhiIHbVmKE6pwO67EObJ/LzwWSONmS0GUjGR2TsyUBjNcFk7NUwNriMfRxEpsFlkkGmzRqXsQdZUp5EphxCxpHIFEPIBKXrP2giRsYbQoYlzv6QDLsdDy8zJRmSIRmS+f9lcm8pRuUvsvW0z8gmRaNghuW+N5dd9sHlEvX1FmhJwk6OaNePy0zBpbdIC8vhIMt+ZD7N3gf9rKilmkwvCypVc7GnfcjkijK97MeVoszEmEGal4XfTK583vHuhLerm7V3qucaTfKD4pyVkvmOnhpFvupocicpg64mwVlxV1Fg5XTT0dQrT7KqvU460qpyZbVo6bLvOm0xonZ1Eyf6/NNt8L4fqo2sItSd9ddHqDmXy8T50ubHoItt+9xIpYvZCyw+PEtDfz0wYaDD7x4ZCJ7jxKyLbTsvF7FlJMqoRNzdSOL7k3ZgyYql7dK4y2VJ3Z60ATu8mFXMJYOUuYXXYJPp2oCeG8tR4Ulq+/b2+ii4ZsX4cIzffbwtgQXYlqPytlJr8ArR/Ydz/N2usdce/SvLBj0Fou2jORWK9cvnaZO6fEM2ey4H/LTdWwHsNUeQKdBbt6/2DfcTyXuMA04zeh+JczQ4dJEniR0To1sMO8cX7BXsuRdHkjvQ+n6IvLW4yaAzJuO2TGblR9zOzgxUyMa9geL5vxZcLHSAXZkvf/uPrOGk5BKKwc4cvYzP4pliFb9f1u+GA9ewVZIBmdYZvYz/aWZT5LuMeSZvOYU/iQCiQLxD+U5nZt5KdjPfcFBxATPGctHrIi4NY6ZjGLMN7KJn8/5UJWgEM0b6n9mGWTVcn7PjzA0x+55KFR1wXFuWLHl9P3TBb+/vwyTm763ekirRUcT18R1ph7qP/FQ8g8LTvdMCR3yP4tGbpVJkv4Uulvzq5LDNzxUS6iSek9djZF/LjnV+PqnlgT7i8ouMWVaYjKFk6TNYcqdafdEOsrJlS7sHkFmjP9dXBlb4VSt2BoBFQLVavBnAVrMxnEv+Buwa8wmcnJko00cGJ6MRZZSOex1EJZwRYNb0tZ485ElLUNXSW+GUEe6wj7d+RJkauVU/11gKZncZKKSbqHICbkcRDNRBhiD7wEsn95MoABsJPC9rxziPCB8O1CCftD0A8TESl/dHvmaD6nDStp6vi3T+Aq8Qx97IFN73L58bOxaqzw+HNoaKweMWLpeRMhEPJ3Url8uWNNYeafkd/pG7k32H3I5J22556hy0TeQ1COS+Jy11zJ2s0PV1z8Lrlmgmbt35n9os8bkqPPd7RoeTs9BqQhAEQRAEQRAEQRAEoYt/jrg90O06jSYAAAAASUVORK5CYII="
+								alt="instabug image"
+								class="w-20 rounded-full"
+							/>
+							<div class="flex flex-col">
+								<div class="flex justify-start">
+									<p class="text-md mb-1 font-medium">Deepscan</p>
+									<img
+										src="https://img.icons8.com/color/512/verified-account--v2.png"
+										alt="verified"
+										class="m-1 h-4 w-4"
+									/>
+								</div>
+								<p class="text-xs">
+									Deepscn is an Advanced Static analysis tool engineered to support javascript,
+									Typescript out of the Box
+								</p>
+							</div>
+						</div>
+						<div class="flex max-w-sm space-x-3 p-2">
+							<img
+								src="data:image/jpeg;base64,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"
+								alt="Lean Board image"
+								class="w-20 rounded-full"
+							/>
+							<div class="flex flex-col">
+								<div class="flex justify-start">
+									<p class="text-md mb-1 font-medium">Leanboard</p>
+									<img
+										src="https://img.icons8.com/color/512/verified-account--v2.png"
+										alt="verified"
+										class="m-1 h-4 w-4"
+									/>
+								</div>
+								<p class="text-xs">
+									Leanboard is whiteboard help you with sticky notes and let you seemlessly
+									connected with the github issues
+								</p>
+							</div>
+						</div>
+						<div class="flex max-w-sm space-x-3 p-2">
+							<img
+								src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYdd4EiSiQnFn33haO6fXyBHcx83uteifJKw&usqp=CAU"
+								alt="instabug image"
+								class="w-20 rounded-full"
+							/>
+							<div class="flex flex-col">
+								<div class="flex justify-start">
+									<p class="text-md mb-2 font-medium">ODIN</p>
+									<img
+										src="https://img.icons8.com/color/512/verified-account--v2.png"
+										alt="verified"
+										class="m-1 h-4 w-4"
+									/>
+								</div>
+								<p class="text-xs">
+									The app in the world rely on the instabug on bug reporting crash reporting and
+									in-app user feedback.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button
+					class="mx-auto flex justify-center rounded-md bg-blue-900 py-2 px-6 font-bold text-white"
+				>
+					View All
+				</button>
+			</div>
+		</div>
+	</body>
+</html>
